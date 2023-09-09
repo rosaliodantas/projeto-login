@@ -13,7 +13,7 @@ Grandes telas: acima de 1200px
  992px) {
 
     body {
-        background-image: linear-gradient(to top, #049a09d, #5f2c82);
+        background-image: linear-gradient(to top, rgb(168, 203, 168), #5f2c82);
     }
 
     section#login {
@@ -34,7 +34,7 @@ Grandes telas: acima de 1200px
 
 @media screen and (min-width: 992px) {
     body {
-        background-image: linear-gradient(to top, rgb(131, 152, 131), #5f2c82);
+        background-image: linear-gradient(to top, rgb(168, 203, 168), #5f2c82);
     }
 
     section#login {
@@ -42,13 +42,21 @@ Grandes telas: acima de 1200px
     }
 
     section#login > div#imagem {
-        float: left;
+        float: right;
         width: 50%;
         height: 100%;
     }
 
     section#login > div#formulario {
-        float: right;
+        float: left;
         width: 50%;
+    }
+
+    div#formulario > h1 {
+        font-size: 2em;
+    }
+
+    div#formulario > p {
+        font-size: 1.2em;
     }
 }
